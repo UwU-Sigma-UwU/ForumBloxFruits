@@ -1,0 +1,461 @@
+/*-body-*/
+html{
+    scroll-behavior: smooth;
+    }
+    
+    body{
+        margin: 0;
+        font-family: 'Inter', sans-serif  ;
+        background-color: rgb(8, 206, 255) ;
+        background-size: cover;
+        background-image: url(img/d79a65ef5a9511ee9f394659bdca6a39_upscaled.jpg);
+        
+        
+    }
+    
+    header{
+        position: fixed;
+    width: 100%;
+  
+    background-color: rgb(41, 66, 148);
+    box-shadow: 0 15px 45px rgba(0,0,0.2);
+    top:0; }
+    
+
+    
+    .header-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 70px;
+        
+    }
+    .header-logo{
+      margin-right: 153px;
+    }
+    .nav ul li{
+        display: inline-block;
+        margin-right: 93px;
+        
+    }
+
+    .nav ul li a{
+        text-decoration: none;
+        color: rgb(21, 34, 45);
+        padding:15px ;
+        background-color: #A8DDE8;
+        border-radius: 15px;
+    }
+
+    .img{
+
+    }
+
+    .nav :hover{
+        transition: 0.8s;
+        color: #e9a512;
+        height: auto;
+        
+        background-size:50px ;
+    }
+
+  .container {
+    width: 1060px;
+    
+    margin: 0 auto;
+    margin-top: 200px;
+    
+    background-color: #031f4e;
+  }
+
+  .block-area{
+    background-size: cover;
+   
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+  }
+
+  .imga {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .imga img {
+    width: 80%;
+  }
+  
+  .text{
+    width: 200px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .text-2{
+    text-align: center;
+    font-size: 68px;
+
+    font-weight: 600;
+  }
+
+  .tx {
+    text-decoration: none;
+  }
+
+.tx-1{
+  color: #36C3FF;
+
+font-size: 20px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+
+.tx-2{
+color: #771DEA;
+font-size: 20px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+
+.tx-3{
+  color: #BF07FF;
+font-size: 20px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+
+.tx-4{
+  color: #E42727;
+font-size: 20px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+
+
+
+.fruct, .fruct > div{
+/* width: 20%; */
+/* height: 100px; */
+/* width: 110px; */
+/* height: 110px; */
+/* width: 100%; */
+width: 170px;
+height: 120px;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+}
+
+
+.block-fruits {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(8, minmax(100px, 1fr)); */
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+}
+
+.block-fruits > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-fruits > div > div {
+  margin: 10px;
+  transition: transform .44s;
+}
+
+.block-fruits > div > div:hover {
+  transform: scale(1.1);
+}
+
+.g3{
+  width: 353px;
+height: 87px;
+  color: #FFF;
+font-size: 64px;
+font-style: italic;
+font-weight: 800;
+line-height: normal;
+}
+.r{
+  background-image: url(fruits/RocketB.webp);
+  background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+.r2{
+background-image: url(fruits/SpinB.webp);
+background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+
+.r3{
+  background-image: url(fruits/ChopB.webp);
+  background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+
+.r4{
+  background-image: url(fruits/govno.webp);
+  background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+
+.r5{
+  background-image: url(fruits/BombB.webp);
+  background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+
+.r6{
+  background-image: url(fruits/SmokeB.webp);
+  background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+
+.r7{
+  background-image: url(fruits/SpikeB\ \(1\).webp);
+  background-color: #737878;
+  border: 4px solid #B3B3B3;
+  border-radius: 15px;
+}
+
+.r8{
+  background-image: url(fruits/FlameB.webp);
+  background-color: #3361a1;
+  border: 4px solid #5c8cd3;
+  border-radius: 15px;
+}
+
+.r9{
+  background-image: url(fruits/FalconB.webp);
+  background-color: #3361a1;
+  border: 4px solid #5c8cd3;
+  border-radius: 15px;
+}
+
+.r10{
+  background-image: url(fruits/IceB.webp);
+  background-color: #3361a1;
+  border: 4px solid #5c8cd3;
+  border-radius: 15px;
+}
+
+.r11{
+  background-image: url(fruits/SandB.webp);
+  background-color: #3361a1;
+  border: 4px solid #5c8cd3;
+  border-radius: 15px;
+}
+
+.r12{
+  background-image: url(fruits/DarkB.webp);
+  background-color: #3361a1;
+  border: 4px solid #5c8cd3;
+  border-radius: 15px;
+}
+
+.r13{
+  background-image: url(fruits/DiamondB.webp);
+  background-color: #3361a1;
+  border: 4px solid #5c8cd3;
+  border-radius: 15px;
+}
+
+.r14{
+  background-image: url(fruits/LightB.webp);
+  background-color: #5e37ac;
+  border: 4px solid #8c52ff;
+  border-radius: 15px;
+}
+
+.r15{
+  background-image: url(fruits/RubberB.webp);
+  background-color: #5e37ac;
+  border: 4px solid #8c52ff;
+  border-radius: 15px;
+}
+
+.r16{
+  background-image: url(fruits/BarrierB.webp);
+  background-color: #5e37ac;
+  border: 4px solid #8c52ff;
+  border-radius: 15px;
+}
+
+.r17{
+  background-image: url(fruits/GhostB.webp);
+  background-color: #5e37ac;
+  border: 4px solid #8c52ff;
+  border-radius: 15px;
+}
+
+.r18{
+  background-image: url(fruits/MagmaB.webp);
+  background-color: #5e37ac;
+  border: 4px solid #8c52ff;
+  border-radius: 15px;
+}
+
+.r19{
+  background-image: url(fruits/QuakeB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r20{
+  background-image: url(fruits/BuddhaB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r21{
+  background-image: url(fruits/LoveB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r22{
+  background-image: url(fruits/SpiderB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r23{
+  background-image: url(fruits/SoundB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r24{
+  background-image: url(fruits/PhoenixB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r25{
+  background-image: url(fruits/PortalB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r26{
+  background-image: url(fruits/RumbleB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r27{
+  background-image: url(fruits/PainB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r28{
+  background-image: url(fruits/BlizzardB.webp);
+  background-color: #911d9b;
+  border: 4px solid #d52be4;
+  border-radius: 15px ;
+}
+
+.r29{
+  background-image: url(fruits/GravityB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+  
+}
+
+.r30{
+  background-image: url(fruits/MammothB.webp); 
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r31{
+  background-image: url(fruits/DoughB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r32{
+  background-image: url(fruits/ShadowB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r33{
+  background-image: url(fruits/VenomB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r34{
+  background-image: url(fruits/ControlB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r35{
+  background-image: url(fruits/SpiritB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r36{
+  background-image: url(fruits/DragonB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r37{
+  background-image: url(fruits/LeopardB.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+.r38{
+  background-image: url(fruits/KitsuneFruit.webp);
+  background-color: #ba2527;
+  border: 4px solid #ee2f32;
+  border-radius: 15px ;
+}
+
+
+.common{
+
+}
+
+
+
+
+
+
+
